@@ -36,6 +36,7 @@
     <div class="socials">
         <span class="icon-github"></span>
         <span class="icon-instagram"></span>
+        <span class="icon-youtube"></span>
         <span></span>
     </div>
 
@@ -55,6 +56,6 @@
 
     <!-- Particles JS -->
     <script src="./assets/js/particles.min.js"></script>
-    <!-- <script src="./assets/js/app.js"></script> -->
+    <script src="./assets/js/app.js"></script>
 </body>
 </html>
