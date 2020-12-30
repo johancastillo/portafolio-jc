@@ -25,6 +25,10 @@
         <h2 class="profession">Desarrollador Web Fontend</h2>
     </div>
 
+    <!-- ***** About Me Start ***** -->
+    <?php include "./components/About.php" ?>
+    <!-- ***** About Me End ***** -->
+
     <div class="socials">
         <span class="icon-github"></span>
         <span class="icon-instagram"></span>
