@@ -1,4 +1,5 @@
 @import "./settings";
+@import "./particles";
 
 *{
     margin: 0;
@@ -34,6 +35,9 @@ body{
 }
 
 .welcome{
+    position: relative;
+    z-index: 99;
+
     span{
         font-size: 22px;
     }
