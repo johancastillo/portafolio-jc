@@ -9,3 +9,40 @@ body{
     background: $color-one !important;
     color: #fff;
 }
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    position: fixed;
+    left: 10px;
+    font-size: 30px;
+}
+
+.email{
+    display: flex;
+    bottom: 0;
+    position: fixed;
+    right: 10px;
+    letter-spacing: 0.1em;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+
+.color-two{
+    color: $color-two;
+}
+
+.welcome{
+    span{
+        font-size: 22px;
+    }
+
+    .name{
+        font-size: 50px;
+    }
+
+    .profession{
+        font-size: 45px;
+    }
+}

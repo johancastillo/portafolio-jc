@@ -17,10 +17,21 @@
     <?php include "./components/Navbar.php" ?>
     <!-- **** Navbar End **** -->
 
-    
-    <span>Hola, mi nombre es:</span>
-    <h1>Johan Castillo</h1>
-    <h2>Soy desarrollador web Fontend</h2>
+    <div class="container mx-4 my-4 welcome">
+        <span class="color-two">Hola, mi nombre es</span>
+        <h1 class="name">Johan Castillo</h1>
+        <h2 class="profession">Desarrollador Web Fontend</h2>
+    </div>
+
+    <div class="socials">
+        <span class="icon-github"></span>
+        <span class="icon-instagram"></span>
+        <span></span>
+    </div>
+
+    <div class="email">
+        <a href="">jcjohan2707@gmail.com</a>
+    </div>
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
