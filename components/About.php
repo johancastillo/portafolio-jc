@@ -7,6 +7,7 @@
                 style="width: 100%" 
                 src="./assets/img/jc.jpg" 
                 alt=""
+                class="mb-4"
             >
         </div>
 
@@ -14,7 +15,7 @@
             <h2>
                 <span>01.</span> Acerca de mi
             </h2>
-            
+
             <p>
                 Soy desarrollador web Full-Stack egresado de la academia 4GeeksAcademy 
                 en la cual aprendí a manejar las tecnologías web HTML, CSS, JavaScript y React
