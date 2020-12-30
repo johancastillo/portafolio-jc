@@ -23,6 +23,10 @@
         <span class="color-two">Hola, mi nombre es</span>
         <h1 class="name">Johan Castillo</h1>
         <h2 class="profession">Desarrollador Web Fontend</h2>
+        <p>
+            
+        </p>
+
     </div>
 
     <!-- ***** About Me Start ***** -->
