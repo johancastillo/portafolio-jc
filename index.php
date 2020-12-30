@@ -10,9 +10,14 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./icomoon/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
-    <span class="icon-dev-to"></span>
+    <!-- **** Navbar Start **** -->
+    <?php include "./components/Navbar.php" ?>
+    <!-- **** Navbar End **** -->
+
+    
     <span>Hola, mi nombre es:</span>
     <h1>Johan Castillo</h1>
     <h2>Soy desarrollador web Fontend</h2>
