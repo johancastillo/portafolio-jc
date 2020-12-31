@@ -104,11 +104,38 @@ body{
     .box{
         width: 300px;
         height: 300px;
-        border: 6px solid $color-two;
+        border: 2px solid $color-two;
         position: absolute;
         top: 29px;
         left: 40px;
         z-index: -1;
         border-radius: 5px;
     }
+}
+
+.navegation{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#logo{
+    color: $color-two;
+    fill: none;
+    width: 60px;
+}
+
+ul.skills-list li::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: var(--green);
+    font-size: var(--fz-sm);
+    line-height: 12px;
 }

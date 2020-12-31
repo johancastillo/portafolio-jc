@@ -12,7 +12,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-md-6 about">
+        <div class="col-12 col-md-6 about m-3">
             <h2>
                 <span>01.</span> Acerca de mi
             </h2>
@@ -30,6 +30,13 @@
                 Flexbox, Animaciopnes con CSS, Inteligencia Artificial, 
                 Responsive Web Design, entre muchas otras.
             </p>
+
+            <p>Habilidades:</p>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
         </div>
     </div>
 </div>

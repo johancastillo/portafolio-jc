@@ -1,5 +1,8 @@
 <header class="navegation">
-  <div><img src="" alt=""></div>
+  <div>
+    <img src="./assets/img/logo.svg" id="logo" alt="">  
+  </div>
+
   <nav>
     <ul>
       <li></li>
