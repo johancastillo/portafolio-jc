@@ -2,13 +2,23 @@
     <div class="row ">
 
 
-        <div class="col-12 col-md-6">
-            <img
-                style="width: 100%" 
-                src="./assets/img/jc.jpg" 
-                alt=""
-                class="mb-4"
-            >
+        <div class="col-12 col-md-6 mb-5">
+            <div class="image-container">
+
+                <img
+                    style="width: 100%" 
+                    src="./assets/img/jc2.jpg" 
+                    alt="mb-4 people"
+                >
+
+                <img
+                    style="width: 100%" 
+                    src="./assets/img/jc.jpg" 
+                    alt=""
+                    class="mb-4 people2"
+                >
+
+            </div>
         </div>
 
         <div class="col-12 col-md-6 about">

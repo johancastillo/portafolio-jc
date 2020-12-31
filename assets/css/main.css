@@ -54,3 +54,17 @@ body {
     color: #64ffda;
     font-size: 20px;
     font-family: 'Langar'; }
+
+.image-container {
+  position: relative; }
+  .image-container .people2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    animation: change 6s infinite alternate; }
+
+@keyframes change {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }

@@ -70,3 +70,24 @@ body{
         }
     }
 }
+
+.image-container{
+    position: relative;
+
+    .people2{
+        position: absolute;
+        right: 0;
+        top: 0;
+
+        animation: change 6s infinite alternate;
+    }
+}
+
+@keyframes change{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
