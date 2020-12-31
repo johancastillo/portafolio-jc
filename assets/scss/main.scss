@@ -19,6 +19,12 @@ body{
     position: fixed;
     left: 10px;
     font-size: 30px;
+
+    @media screen and (max-width: 660px){
+        display: block;
+        position: static;
+        text-align: center;
+    }
 }
 
 .email{
@@ -29,6 +35,13 @@ body{
     letter-spacing: 0.1em;
     -webkit-writing-mode: vertical-rl;
     writing-mode: vertical-rl;
+
+    @media screen and (max-width: 660px) {
+        display: block;
+        writing-mode: horizontal-tb;
+        position: static;
+        text-align: center;
+    }
 }
 
 .color-two{
