@@ -5,18 +5,9 @@
         <div class="col-12 col-md-6 mb-5">
             <div class="image-container">
 
-                <img
-                    style="width: 100%" 
-                    src="./assets/img/jc2.jpg" 
-                    alt="mb-4 people"
-                >
+                <div class="image"></div>
 
-                <img
-                    style="width: 100%" 
-                    src="./assets/img/jc.jpg" 
-                    alt=""
-                    class="mb-4 people2"
-                >
+                <div class="box"></div>
 
             </div>
         </div>

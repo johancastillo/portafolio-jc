@@ -68,14 +68,20 @@ body {
 
 .image-container {
   position: relative; }
-  .image-container .people2 {
+  .image-container .image {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    background: url(./../img/jc2.jpg) center/cover, #64ffda;
+    background-blend-mode: luminosity; }
+    .image-container .image:hover {
+      background: url(./../img/jc2.jpg) center/cover; }
+  .image-container .box {
+    width: 300px;
+    height: 300px;
+    border: 6px solid #64ffda;
     position: absolute;
-    right: 0;
-    top: 0;
-    animation: change 6s infinite alternate; }
-
-@keyframes change {
-  from {
-    opacity: 1; }
-  to {
-    opacity: 0; } }
+    top: 29px;
+    left: 40px;
+    z-index: -1;
+    border-radius: 5px; }
