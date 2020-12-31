@@ -56,6 +56,6 @@
 
     <!-- Particles JS -->
     <script src="./assets/js/particles.min.js"></script>
-    <!-- <script src="./assets/js/app.js"></script> -->
+    <script src="./assets/js/app.js"></script>
 </body>
 </html>
